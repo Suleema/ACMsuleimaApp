@@ -1,0 +1,275 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragment.AboutFragment"
+    android:orientation="vertical"
+    android:background="@color/gray">
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="230dp">
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:adjustViewBounds="true"
+            android:scaleType="centerCrop"
+            android:src="@drawable/background_about" />
+        <View
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/transparent" />
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_centerInParent="true">
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="CAL STATE "
+                    android:textColor="@color/white"
+                    android:textSize="45sp"
+                    android:fontFamily="Verdana"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="LA"
+                    android:textColor="@color/colorAccent"
+                    android:textSize="45sp"
+                    android:fontFamily="times" />
+
+            </LinearLayout>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Association of Computing Machinery"
+                android:textAllCaps="true"
+                android:textColor="@color/white"
+                android:textSize="15.5sp" />
+        </LinearLayout>
+    </RelativeLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:gravity="center_horizontal">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                android:text="@string/mission_title"
+                android:textSize="25sp"
+                android:fontFamily="arial"/>
+            <View
+                android:layout_width="70dp"
+                android:layout_gravity="center"
+                android:layout_height="1dp"
+                android:background="@color/colorAccent"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorAccent"
+                android:textStyle="bold"
+                android:text="@string/mission"
+                android:textSize="15sp"
+                android:padding="10dp"
+                android:fontFamily="arial"
+                android:gravity="center"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                android:text="Who are we?"
+                android:textSize="25sp"
+                android:fontFamily="arial"/>
+            <View
+                android:layout_width="70dp"
+                android:layout_gravity="center"
+                android:layout_height="1dp"
+                android:background="@color/colorAccent"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorAccent"
+                android:textStyle="bold"
+                android:text="The association for computer machinery is an international scientific and educational organization dedicating in advancing the art, science ,engineering ,and application of information technology."
+                android:textSize="15sp"
+                android:padding="10dp"
+                android:fontFamily="arial"
+                android:gravity="center"/>
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                android:text="Our Leaders"
+                android:textSize="25sp"
+                android:fontFamily="arial"/>
+            <View
+                android:layout_width="70dp"
+                android:layout_gravity="center"
+                android:layout_height="1dp"
+                android:background="@color/colorAccent"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#1d2a69"
+                android:textStyle="bold"
+                android:text="Board"
+                android:textSize="18sp"
+                android:padding="12dp"
+                android:fontFamily="arial"
+                android:gravity="center_horizontal"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorPrimaryDark"
+                android:textStyle="bold"
+                android:text="Wilson Thomas"
+                android:textSize="15sp"
+                android:padding="10dp"
+                android:fontFamily="arial"
+                android:gravity="center"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#bebebf"
+                android:textStyle="bold"
+                android:text="President"
+                android:textSize="10sp"
+                android:padding="3dp"
+                android:fontFamily="arial"
+                android:gravity="center"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorPrimaryDark"
+                android:textStyle="bold"
+                android:text="Pranil Dahal"
+                android:textSize="15sp"
+                android:padding="10dp"
+                android:fontFamily="arial"
+                android:gravity="center"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#bebebf"
+                android:textStyle="bold"
+                android:text="Vice President"
+                android:textSize="10sp"
+                android:padding="3dp"
+                android:fontFamily="arial"/>
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorPrimaryDark"
+                android:textStyle="bold"
+                android:text="David San"
+                android:textSize="15sp"
+                android:padding="10dp"
+                android:fontFamily="arial"
+                android:gravity="center"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#bebebf"
+                android:textStyle="bold"
+                android:text="Treasurer"
+                android:textSize="10sp"
+                android:padding="3dp"
+                android:fontFamily="arial"/>
+
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorPrimaryDark"
+                android:textStyle="bold"
+                android:text="Giovanni Garcia"
+                android:textSize="15sp"
+                android:padding="10dp"
+                android:fontFamily="arial"
+                android:gravity="center"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#bebebf"
+                android:textStyle="bold"
+                android:text="VP Internal Affairs"
+                android:textSize="10sp"
+                android:padding="3dp"
+                android:fontFamily="arial"
+                android:gravity="center"/>
+
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorPrimaryDark"
+                android:textStyle="bold"
+                android:text="Geovanni Huerta"
+                android:textSize="15sp"
+                android:padding="10dp"
+                android:fontFamily="arial"
+                android:gravity="center"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#bebebf"
+                android:textStyle="bold"
+                android:text="Secretery"
+                android:textSize="10sp"
+                android:padding="3dp"
+                android:fontFamily="arial"
+                android:gravity="center"/>
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorPrimaryDark"
+                android:textStyle="bold"
+                android:text="Brain Hernandez"
+                android:textSize="15sp"
+                android:padding="10dp"
+                android:fontFamily="arial"
+                android:gravity="center"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#bebebf"
+                android:textStyle="bold"
+                android:text="Project Manager"
+                android:textSize="10sp"
+                android:padding="3dp"
+                android:fontFamily="arial"
+                android:gravity="center"/>
+
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

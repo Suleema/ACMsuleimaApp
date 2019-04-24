@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="fragment_container" type="id" />
+    <item name="start_date" type="id" />
+    <item name="location" type="id" />
+    <item name="nav_share" type="id" />
+    <item name="nav_send" type="id" />
+
+</resources>

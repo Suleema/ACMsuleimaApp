@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "312658816697",
+    "firebase_url": "https://acmsuleima.firebaseio.com",
+    "project_id": "acmsuleima",
+    "storage_bucket": "acmsuleima.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:312658816697:android:27512b7e03c05222",
+        "android_client_info": {
+          "package_name": "com.example.acm_demo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "312658816697-0ajlqnuicjv7hchgu25nbc6c548va9op.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.acm_demo",
+            "certificate_hash": "3e2b11d3ff37b3d093b5ce026c026ecd7e6eeb4d"
+          }
+        },
+        {
+          "client_id": "312658816697-jv9c613g91gse3sqk93qang9b2h7hk8k.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC3qxFN7lc1FltiCoOE6V0uTyWFwsrudB8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "312658816697-jv9c613g91gse3sqk93qang9b2h7hk8k.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
